@@ -45,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileNav }) => {
             <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white shadow-sm shadow-blue-500/30">
               <Activity className="w-5 h-5" />
             </div>
-            <span className="font-bold text-slate-900 text-sm tracking-tight">MediPulse</span>
+            <span className="font-bold text-slate-900 text-sm tracking-tight">WILL HOSPITALIER</span>
           </div>
 
           {/* Desktop Title & Status */}
