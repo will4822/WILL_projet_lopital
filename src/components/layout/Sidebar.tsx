@@ -72,7 +72,7 @@ export const Sidebar: React.FC = () => {
         </div>
         <div>
           <div className="flex items-center gap-1.5">
-            <h1 className="font-bold text-base tracking-tight text-white">MediPulse</h1>
+            <h1 className="font-bold text-base tracking-tight text-white">WILL HOSPITALIER</h1>
             <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-sm bg-blue-500/20 text-blue-400 border border-blue-500/30">
               PRO
             </span>
