@@ -173,7 +173,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileNav }) => {
           {/* User Profile Pill */}
           <div className="flex items-center gap-2.5 pl-2 sm:pl-3 border-l border-slate-200">
             <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-bold flex items-center justify-center text-xs shadow-xs">
-              DR
+              src="/logo.png"
             </div>
             <div className="hidden md:block text-left">
               <p className="text-xs font-semibold text-slate-900 leading-tight">Dr. Will Altidor</p>
