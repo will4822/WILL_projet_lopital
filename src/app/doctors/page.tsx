@@ -62,9 +62,9 @@ export default function DoctorsPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+            <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               Se yon nouvo projè WILL ALTIDOR apèn lanse ki jere klinik
-            </h1>
+            </h3>
              <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               Corps Médical & Praticiens
             </h1>
