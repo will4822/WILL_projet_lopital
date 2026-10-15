@@ -62,9 +62,6 @@ export default function DoctorsPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2">
-            {/* <h6 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-              Se yon nouvo projè WILL ALTIDOR apèn lanse ki jere klinik
-            </h6> */}
              <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               Corps Médical & Praticiens
             </h1>
@@ -72,6 +69,9 @@ export default function DoctorsPage() {
               {stats.availableDoctors} en service
             </span>
           </div>
+                    <p className="text-xs sm:text-sm text-slate-500 mt-1">
+             Se yon nouvo projè WILL ALTIDOR apèn lanse ki jere klinik
+          </p>
           <p className="text-xs sm:text-sm text-slate-500 mt-1">
             Annuaire du personnel médical, spécialités cliniques, créneaux de garde et disponibilité en temps réel.
           </p>
