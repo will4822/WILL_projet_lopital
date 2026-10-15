@@ -176,7 +176,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileNav }) => {
               DR
             </div>
             <div className="hidden md:block text-left">
-              <p className="text-xs font-semibold text-slate-900 leading-tight">Dr. Régulateur</p>
+              <p className="text-xs font-semibold text-slate-900 leading-tight">Dr. Will Altidor</p>
               <p className="text-[10px] text-slate-500">Coordination Médicale</p>
             </div>
           </div>
