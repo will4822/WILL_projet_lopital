@@ -172,9 +172,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileNav }) => {
 
           {/* User Profile Pill */}
           <div className="flex items-center gap-2.5 pl-2 sm:pl-3 border-l border-slate-200">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-bold flex items-center justify-center text-xs shadow-xs">
-              src="/logo.png"
-            </div>
+             {/* Remplase div gradyan an pa yon balise img pou logo.png a monte kòrèkteman */}
+            <img 
+              src="/logo.png" 
+              alt="Dr. Will Altidor" 
+              className="w-8 h-8 rounded-full object-cover shadow-xs"
+            />
             <div className="hidden md:block text-left">
               <p className="text-xs font-semibold text-slate-900 leading-tight">Dr. Will Altidor</p>
               <p className="text-[10px] text-slate-500">Coordination Médicale</p>
@@ -192,6 +195,6 @@ export const Header: React.FC<HeaderProps> = ({ onOpenMobileNav }) => {
         isOpen={isAppointmentModalOpen}
         onClose={() => setIsAppointmentModalOpen(false)}
       />
-    </>
+  </>
   );
 };
