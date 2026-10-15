@@ -63,6 +63,9 @@ export default function DoctorsPage() {
         <div>
           <div className="flex items-center gap-2">
             <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+              Se yon nouvo projè WILL ALTIDOR apèn lanse ki jere klinik
+            </h1>
+             <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               Corps Médical & Praticiens
             </h1>
             <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold px-2.5 py-0.5 rounded-full">
